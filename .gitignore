@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venv-mjpc/
+
+# Logs and env
+*.log
+.env
+.DS_Store
+
+# Build/output
+build/
+dist/
+*.o
+*.so
+*.a
+
+# Large data / checkpoints
+*.hdf5
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+data/
+datasets/
+logs/
+runs/
+
+# Nested git repos / fetched deps
+mujoco_menagerie/
+mujoco_mpc/build/
+metamotivo-M-1-datasets/
+
+# Nested repos kept outside this repo
+mujoco_mpc/
+unitree_rl_gym/
+
+# Nested repos kept outside this repo
+mujoco_mpc/
+unitree_rl_gym/

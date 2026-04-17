@@ -1,0 +1,17 @@
+============================================================
+SCENARIO 20 VALIDATION REPORT
+============================================================
+age=32  h=1.75m  w=80.0kg  sex=male
+
+Score:          87.5%
+Classification: HIGH_CONFIDENCE
+Fall duration:  1.03 s
+Peak accel:     15.3 m/s² (filtered)
+Peak impact:    0 N
+SISFall:        True
+
+Checks:
+  PASS  peak_accel_in_SISFall_range
+  PASS  fall_duration_realistic
+  FAIL  peak_impact_in_range
+  PASS  pelvis_reached_floor
